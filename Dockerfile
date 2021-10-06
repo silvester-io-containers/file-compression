@@ -1,9 +1,6 @@
 FROM alpine:3.14
 
-RUN apt-get update
-RUN apt-get install brotli -y
-RUN apt-get install gzip -y
-
-RUN rm -rf /var/lib/apt/lists/*
+RUN apk add brotli -y
+RUN apk add gzip -y
 
 ENTRYPOINT ["/bin/sh"]
