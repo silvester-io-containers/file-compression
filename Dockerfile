@@ -1,6 +1,6 @@
 FROM alpine:3.14
 
-RUN apk add brotli -y
-RUN apk add gzip -y
+RUN apk add brotli
+RUN apk add gzip
 
 ENTRYPOINT ["/bin/sh"]
