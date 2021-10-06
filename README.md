@@ -1,0 +1,2 @@
+## Repository
+This repository contains the image definition of an alpine-based image having the brotli and gzip cli's pre-installed. They can be used for (for example) compressing static content such as appsettings.json after having deployed a Blazor Web Assembly application for a compressed-content-negotiation-enabled provider such as nginx.
